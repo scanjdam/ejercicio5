@@ -4,8 +4,8 @@ import time
 import Mazinger
 
 # Añadir aquí las importaciones del armamento.
-import FuegoPecho.py
-import RayosFotónicos.py
+import FuegoPecho
+import RayosFotónicos
 
 # pygame setup
 pygame.init()
