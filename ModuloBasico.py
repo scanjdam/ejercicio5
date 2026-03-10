@@ -16,7 +16,7 @@ maz=Mazinger.Mazinger(screen)
 
 # Incorporar aquí el armamento con pares de líneas como éstos.
 rayos= RayosFotónicos.RayosFotónicos() 
-maz.incorpora(planeador)
+maz.incorpora(rayos)
 
 while running:
     for event in pygame.event.get():
