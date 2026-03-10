@@ -6,6 +6,7 @@ import Mazinger
 # Añadir aquí las importaciones del armamento.
 import RayosFotónicos.py
 
+
 # pygame setup
 pygame.init()
 screen = pygame.display.set_mode((700, 800))
@@ -14,7 +15,6 @@ running = True
 maz=Mazinger.Mazinger(screen)
 
 # Incorporar aquí el armamento con pares de líneas como éstos.
-
 rayos= RayosFotónicos.RayosFotónicos() 
 maz.incorpora(planeador)
 
